@@ -1,160 +1,169 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LoveConnect - Find Your Match</title>
+  background: linear-gradient(135deg, #fff0f5, #f5e9ff);
+      color: #333;
+      min-height: 100vh;
+    }
 
-<style>
-*{
-  box-sizing:border-box;
-}
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
 
-body{
-  margin:0;
-  font-family:Arial,sans-serif;
-  background:#fff5f7;
-  color:#333;
-}
+    header {
+      text-align: center;
+      padding: 45px 15px 25px;
+    }
 
-header{
-  background:linear-gradient(135deg,#ff416c,#ff4b2b);
-  color:white;
-  text-align:center;
-  padding:35px 20px;
-}
+    h1 {
+      font-size: 42px;
+      color: #d63384;
+      margin-bottom: 15px;
+    }
 
-header h1{
-  margin:0 0 10px;
-  font-size:38px;
-}
+    .subtitle {
+      font-size: 19px;
+      line-height: 1.6;
+      color: #555;
+    }
 
-header p{
-  margin:0;
-  font-size:18px;
-}
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 35px 25px;
+      margin: 25px auto;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    }
 
-.container{
-  max-width:1000px;
-  margin:30px auto;
-  padding:20px;
-}
+    .card h2 {
+      color: #b52b72;
+      margin-bottom: 15px;
+    }
 
-.profiles{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:20px;
-}
+    .card p {
+      line-height: 1.7;
+      margin-bottom: 25px;
+      color: #555;
+    }
 
-.card{
-  background:white;
-  border-radius:15px;
-  padding:25px;
-  text-align:center;
-  box-shadow:0 5px 20px rgba(0,0,0,.1);
-}
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin: 25px 0;
+    }
 
-.avatar{
-  width:100px;
-  height:100px;
-  margin:auto;
-  border-radius:50%;
-  background:#ff416c;
-  color:white;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:40px;
-}
+    .feature {
+      background: #fff5fa;
+      border-radius: 14px;
+      padding: 20px 10px;
+    }
 
-.card h2{
-  margin:15px 0 5px;
-}
+    .feature strong {
+      display: block;
+      color: #d63384;
+      margin-bottom: 8px;
+    }
 
-.card p{
-  color:#777;
-}
+    .btn {
+      display: inline-block;
+      background: #d63384;
+      color: white;
+      padding: 16px 35px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
 
-.button{
-  display:inline-block;
-  margin-top:15px;
-  padding:12px 22px;
-  background:#ff416c;
-  color:white;
-  text-decoration:none;
-  border-radius:25px;
-  font-weight:bold;
-}
+    .btn:hover {
+      opacity: 0.9;
+      transform: translateY(-2px);
+    }
 
-.button:hover{
-  background:#e93660;
-}
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      color: #777;
+    }
 
-footer{
-  text-align:center;
-  padding:30px;
-  color:#888;
-}
-</style>
+    @media (max-width: 650px) {
+      h1 {
+        font-size: 32px;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        padding: 28px 18px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
-  <h1>💕 LoveConnect</h1>
-  <p>Find your perfect match and start a new connection.</p>
-</header>
+  <div class="container">
 
-<div class="container">
-
-  <div class="profiles">
+    <header>
+      <h1>LoveConnect ❤️</h1>
+      <p class="subtitle">
+        Discover new people, make meaningful connections
+        and find someone who shares your interests.
+      </p>
+    </header>
 
     <div class="card">
-      <div class="avatar">D</div>
-      <h2>Daniel</h2>
-      <p>Friendly • 27 • New York</p>
+      <h2>Ready to Meet Someone New?</h2>
 
-      <a class="button"
-         href="https://www.profitableratecpmnetwork.com/cbvgxbdcg?key=3a4e058cb023ba1109eea738318c09b7"
-         target="_blank"
-         rel="nofollow sponsored">
-         View Profile
+      <p>
+        Explore new connections and discover people who may
+        share your interests, hobbies and goals.
+      </p>
+
+      <div class="features">
+        <div class="feature">
+          <strong>💬 Connect</strong>
+          Meet interesting people.
+        </div>
+
+        <div class="feature">
+          <strong>❤️ Discover</strong>
+          Find new connections.
+        </div>
+
+        <div class="feature">
+          <strong>🌎 Explore</strong>
+          Connect with people worldwide.
+        </div>
+      </div>
+
+      <a
+        class="btn"
+        href="https://www.profitableratecpmnetwork.com/cbvgxbdcg?key=3a4e058cb023ba1109eea738318c09b7"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Find Your Match
       </a>
     </div>
 
-    <div class="card">
-      <div class="avatar">S</div>
-      <h2>Sophia</h2>
-      <p>Kind • 25 • California</p>
-
-      <a class="button"
-         href="https://www.profitableratecpmnetwork.com/cbvgxbdcg?key=3a4e058cb023ba1109eea738318c09b7"
-         target="_blank"
-         rel="nofollow sponsored">
-         View Profile
-      </a>
-    </div>
-
-    <div class="card">
-      <div class="avatar">A</div>
-      <h2>Alex</h2>
-      <p>Adventurous • 29 • Texas</p>
-
-      <a class="button"
-         href="https://www.profitableratecpmnetwork.com/cbvgxbdcg?key=3a4e058cb023ba1109eea738318c09b7"
-         target="_blank"
-         rel="nofollow sponsored">
-         View Profile
-      </a>
-    </div>
+    <footer>
+      © 2026 LoveConnect. All rights reserved.
+    </footer>
 
   </div>
 
-</div>
-
-<footer>
-  © 2026 LoveConnect • Find meaningful connections
-</footer>
-
 </body>
 </html>
+
+2. Code paste karne ke baad screenshot bhej dein.
+Main check karunga ke code sahi paste hua hai.
+
+3. Uske baad hi Commit changes dabayenge.
+
+Phir hum next step mein GitHub Pages website live + SEO + real visitors ke liye setup karenge. 1000 visitors/day target rakhenge, lekin traffic ko genuine rakhna zaroori hai.
